@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Image, Row, Table } from "react-bootstrap";
-import { FiPhoneCall } from 'react-icons/fi';
-import { FaMobileAlt } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+import { FiPhoneCall } from "react-icons/fi";
+import { FaMobileAlt } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
   return (
@@ -41,22 +41,30 @@ const Contact = () => {
             <Table striped bordered hover className="text-center">
               <thead>
                 <tr>
-                  <th className="bg-warning" colSpan={3}>Contact Details</th>
+                  <th className="bg-warning" colSpan={3}>
+                    Contact Details
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><FiPhoneCall /></td>
+                  <td>
+                    <FiPhoneCall />
+                  </td>
                   <td>Phone</td>
                   <td>0185-6586-2</td>
                 </tr>
                 <tr>
-                  <td><FaMobileAlt /></td>
+                  <td>
+                    <FaMobileAlt />
+                  </td>
                   <td>Call</td>
                   <td>01988745-9+6</td>
                 </tr>
                 <tr>
-                  <td><HiOutlineMail /></td>
+                  <td>
+                    <HiOutlineMail />
+                  </td>
                   <td>E-mail</td>
                   <td>help@yourdomain.com</td>
                 </tr>
@@ -64,7 +72,10 @@ const Contact = () => {
             </Table>
           </Col>
           <Col>
-            <Image src="images/farmhouse.jpg" style={{width: "100%", height:"100%"}}/>
+            <Image
+              src="images/farmhouse.jpg"
+              style={{ width: "100%", height: "100%" }}
+            />
           </Col>
         </Row>
       </Container>
